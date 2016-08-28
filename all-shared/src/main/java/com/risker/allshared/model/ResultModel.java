@@ -7,7 +7,7 @@ import java.io.Serializable;
 /**
  * Created by myz on 16/8/28.
  */
-public abstract class ResultModel<T extends Serializable> {
+public abstract class ResultModel<T> implements Serializable{
 
     protected ResultCodeEnum code = ResultCodeEnum.SUCCESS;
 
