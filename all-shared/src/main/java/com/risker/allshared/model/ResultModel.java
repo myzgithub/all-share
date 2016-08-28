@@ -7,19 +7,19 @@ import java.io.Serializable;
 /**
  * Created by myz on 16/8/28.
  */
-public abstract class ResultModel<T> implements Serializable{
+public class ResultModel<T> implements Serializable{
 
-    protected ResultCodeEnum code = ResultCodeEnum.SUCCESS;
+    public ResultCodeEnum code = ResultCodeEnum.SUCCESS;
 
-    protected String message = "success";
+    public String message = "success";
 
-    protected T model;
+    public T model;
 
     public ResultCodeEnum getCode() {
         return code;
     }
 
-    protected void setCode(ResultCodeEnum code) {
+    public void setCode(ResultCodeEnum code) {
         this.code = code;
     }
 
@@ -27,7 +27,7 @@ public abstract class ResultModel<T> implements Serializable{
         return message;
     }
 
-    protected void setMessage(String message) {
+    public void setMessage(String message) {
         this.message = message;
     }
 
@@ -35,7 +35,7 @@ public abstract class ResultModel<T> implements Serializable{
         return model;
     }
 
-    protected void setModel(T model) {
+    public void setModel(T model) {
         this.model = model;
     }
 }
