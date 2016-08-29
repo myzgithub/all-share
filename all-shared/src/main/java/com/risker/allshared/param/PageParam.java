@@ -8,79 +8,68 @@ import com.risker.allshared.constant.PageContant;
  */
 public abstract class PageParam {
 
-    protected int curPage = PageContant.DEFAULT_CURRENT_PAGE; // 当前页
+    //页面传递
+    private int curPage = PageContant.DEFAULT_CURRENT_PAGE; // 当前页
 
-    protected int pageSize = PageContant.DEFAULT_PAGE_SIZE; // 每页多少行
+    private int pageSize = PageContant.DEFAULT_PAGE_SIZE; // 每页多少行
 
-    protected int totalRow; // 共多少行
+    //查询库得到
+    private int totalRow = 0;
 
-    protected int start;// 当前页起始行
+    //计算
+    private int start =0;// 当前页起始行
 
-    protected int end;// 结束行
+    private int end = 0;// 结束行
 
-    protected int totalPage; // 共多少页
+    private int totalPage = 0; // 共多少页
 
-    public int getCurPage() {
-        return curPage;
+    private PageParam(){
+        setDefaultCurPage();
+        setDefaultPageSize();
     }
 
-    /**
-     * 通过设置curPage来计算end和start
-     * @param curPage
-     */
-    protected void setCurPage(int curPage) {
-        if (curPage < PageContant.DEFAULT_CURRENT_PAGE) {
-            curPage = PageContant.DEFAULT_CURRENT_PAGE;
+    public void setTotalRow(int totalRow){
+        this.totalRow = totalRow;
+    }
+
+    private void setDefaultCurPage() {
+        if (this.curPage < PageContant.DEFAULT_CURRENT_PAGE) {
+            this.curPage = PageContant.DEFAULT_CURRENT_PAGE;
             return;
         }
-        start = pageSize * (curPage - 1);
-        end = start + pageSize > totalRow ? totalRow : start + pageSize;
-        this.curPage = curPage;
+    }
+
+    private void setDefaultPageSize(){
+        if(this.pageSize < 0 ){
+            this.pageSize = PageContant.DEFAULT_PAGE_SIZE;
+        }
     }
 
     public int getStart() {
-        return start;
+
+        this.start = pageSize * (curPage - 1);
+        return this.start;
     }
 
     public int getEnd() {
+        this.end = start + pageSize > totalRow ? totalRow : start + pageSize;
+        return this.end;
+    }
 
-        return end;
+    public int getTotalPage() {
+        return (totalRow + pageSize)/pageSize;
     }
 
     public int getPageSize() {
         return pageSize;
     }
 
-    protected void setPageSize(int pageSize) {
-        this.pageSize = pageSize;
-    }
-
     public int getTotalRow() {
         return totalRow;
     }
 
-    /**
-     * 设置总页数
-     * 计算end
-     * @param totalRow
-     */
-    protected void setTotalRow(int totalRow) {
-        totalPage = (totalRow + pageSize - 1) / pageSize;
-        this.totalRow = totalRow;
-        if (totalPage < curPage) {
-            curPage = totalPage;
-            start = pageSize * (curPage - 1);
-            end = totalRow;
-        }
-        end = start + pageSize > totalRow ? totalRow : start + pageSize;
+    public int getCurPage() {
+        return curPage;
     }
-
-    public int getTotalPage() {
-
-        return this.totalPage;
-    }
-
-
-
 
 }
