@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="manage-center-all.bundle:war">
+    <output-path>$PROJECT_DIR$/../risk-manage-center/bundle.war/target</output-path>
+    <root id="archive" name="manage-center-all.bundle.war">
+      <element id="artifact" artifact-name="manage-center-all.bundle:war exploded" />
+    </root>
+  </artifact>
+</component>
