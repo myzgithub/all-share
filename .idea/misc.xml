@@ -1,15 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
+=======
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../risk-manage-center/bundle.war" />
+    <file type="web" url="file://$PROJECT_DIR$/../risk-manage/bundle.war" />
+>>>>>>> master
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+<<<<<<< HEAD
       </list>
     </option>
   </component>
+=======
+        <option value="$PROJECT_DIR$/../all-share/pom.xml" />
+        <option value="$PROJECT_DIR$/../risk-manage-share/pom.xml" />
+        <option value="$PROJECT_DIR$/../risk-manage-center/pom.xml" />
+        <option value="$PROJECT_DIR$/../risk-manage/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AOP</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+>>>>>>> master
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
@@ -23,6 +61,7 @@
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
+<<<<<<< HEAD
   <component name="masterDetails">
     <states>
       <state key="GlobalLibrariesConfigurable.UI">
@@ -85,4 +124,6 @@
       </state>
     </states>
   </component>
+=======
+>>>>>>> master
 </project>

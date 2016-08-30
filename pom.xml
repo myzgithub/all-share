@@ -3,6 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.risker</groupId>
+<<<<<<< HEAD
   <artifactId>all-share</artifactId>
   <version>1.0-SNAPSHOT</version>
   <modules>
@@ -11,6 +12,13 @@
   <packaging>pom</packaging>
 
   <name>all-share</name>
+=======
+  <artifactId>risk-manage-parent</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>risk-manage-parent</name>
+>>>>>>> master
   <url>http://maven.apache.org</url>
 
   <properties>
