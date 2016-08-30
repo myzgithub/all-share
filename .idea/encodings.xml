@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../all-share" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../all-share/all-shared" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../risk-manage" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../risk-manage-center" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../risk-manage-center/bundle.war" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../risk-manage-center/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../risk-manage-center/config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../risk-manage-center/dal" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../risk-manage-center/serviceprovider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../risk-manage-center/web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../risk-manage-share" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../risk-manage-share/shared" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../risk-manage/bundle.war" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../risk-manage/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../risk-manage/config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../risk-manage/web" charset="UTF-8" />
+  </component>
+</project>

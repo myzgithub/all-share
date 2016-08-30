@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../all-share/all-share.iml" filepath="$PROJECT_DIR$/../all-share/all-share.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../all-share/all-shared/all-shared.iml" filepath="$PROJECT_DIR$/../all-share/all-shared/all-shared.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../risk-manage/manage-all.iml" filepath="$PROJECT_DIR$/../risk-manage/manage-all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../risk-manage-center/manage-center-all.iml" filepath="$PROJECT_DIR$/../risk-manage-center/manage-center-all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../risk-manage-center/bundle.war/manage-center-all.bundle.iml" filepath="$PROJECT_DIR$/../risk-manage-center/bundle.war/manage-center-all.bundle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../risk-manage-center/common/manage-center-all.common.iml" filepath="$PROJECT_DIR$/../risk-manage-center/common/manage-center-all.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../risk-manage-center/config/manage-center-all.config.iml" filepath="$PROJECT_DIR$/../risk-manage-center/config/manage-center-all.config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../risk-manage-center/dal/manage-center-all.dal.iml" filepath="$PROJECT_DIR$/../risk-manage-center/dal/manage-center-all.dal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../risk-manage-center/serviceprovider/manage-center-all.serviceprovider.iml" filepath="$PROJECT_DIR$/../risk-manage-center/serviceprovider/manage-center-all.serviceprovider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../risk-manage-center/web/manage-center-all.web.iml" filepath="$PROJECT_DIR$/../risk-manage-center/web/manage-center-all.web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/risk-manage-parent.iml" filepath="$PROJECT_DIR$/risk-manage-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../risk-manage-share/risk-manage-share.iml" filepath="$PROJECT_DIR$/../risk-manage-share/risk-manage-share.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../risk-manage-share/shared/risk-manage-shared.iml" filepath="$PROJECT_DIR$/../risk-manage-share/shared/risk-manage-shared.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../risk-manage/bundle.war/risk-manage.bundle.iml" filepath="$PROJECT_DIR$/../risk-manage/bundle.war/risk-manage.bundle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../risk-manage/common/risk-manage.common.iml" filepath="$PROJECT_DIR$/../risk-manage/common/risk-manage.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../risk-manage/config/risk-manage.config.iml" filepath="$PROJECT_DIR$/../risk-manage/config/risk-manage.config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../risk-manage/web/risk-manage.web.iml" filepath="$PROJECT_DIR$/../risk-manage/web/risk-manage.web.iml" />
+    </modules>
+  </component>
+</project>
